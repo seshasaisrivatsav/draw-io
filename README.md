@@ -1,8 +1,8 @@
 ### System Design Public Image Links
 - [URL Shortener](public/urlshortener.md)
-- [Instagram Newsfeed] (public/instagram.md)
-- [Facebook Newsfeed] (public/facebook.md)
-- [Facebook Messenger] (public/messenger.md)
+- [Instagram Newsfeed](public/instagram.md)
+- [Facebook Newsfeed](public/facebook.md)
+- [Facebook Messenger](public/messenger.md)
 
 ### System Design Editable
 - [URL Shortener](https://app.diagrams.net/#Hseshasaisrivatsav%2Fdraw-io%2Fmain%2Fdiagrams%2FURL%20Feed%20System%20Design)
