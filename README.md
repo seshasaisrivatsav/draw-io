@@ -12,3 +12,4 @@
 
 ## Database Design
 - [Instagram Database](https://app.diagrams.net/#Hseshasaisrivatsav%2Fdraw-io%2Fmain%2Fdiagrams%2FInstagram%20Database%20Design) 
+- [Employee Department](https://app.diagrams.net/#Hseshasaisrivatsav%2Fdraw-io%2Fmain%2Fdiagrams%2FEmployee%20Dept%20Payment)
