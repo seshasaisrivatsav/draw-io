@@ -1,1 +1,180 @@
-<mxfile host="app.diagrams.net" modified="2022-02-04T16:28:05.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.5.2" etag="CnbgovR5J8Br-eAkoJh-" type="github"><diagram id="XawIVJ7vQCQPl4s1qFGn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-05T19:03:11.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="XAURhC6fBnrvgVdAjtAi" version="16.5.2" type="github">
+  <diagram id="XawIVJ7vQCQPl4s1qFGn" name="Page-1">
+    <mxGraphModel dx="951" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-1" value="Employee" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="390" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-1">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-2">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-4" value="EmployeeId: int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-2">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-1">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-5">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-7" value="deptId: int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-5">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-1">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-9" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-8">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-10" value="name: varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-8">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-1">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-12" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-11">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-13" value="startDate: Date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-11">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-1">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-15" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-14">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-16" value="salary: double" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-14">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-30" value="Department" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="390" width="180" height="150" as="geometry">
+            <mxRectangle x="1060" y="390" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-30">
+          <mxGeometry y="30" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-32" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-31">
+          <mxGeometry width="30" height="20" as="geometry">
+            <mxRectangle width="30" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-33" value="deptId: int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-31">
+          <mxGeometry x="30" width="150" height="20" as="geometry">
+            <mxRectangle width="150" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-30">
+          <mxGeometry y="50" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-35" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-34">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-36" value="deptName: varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-34">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-30">
+          <mxGeometry y="80" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-38" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-37">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-39" value="location: varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-37">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-40" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-30">
+          <mxGeometry y="110" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-41" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-40">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-42" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="PhxU9cAhpDBWABS3kmyr-40">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-43" value="Employee" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-44" value="Salary" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-45" value="Department" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-62" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Use Case 1: Get payslip for employee with department details&lt;br&gt;Eg: Name, Department, Salary&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-63" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Use Case 2: Get Department with highest salaries&lt;br&gt;Eg: DeptName, Salary&lt;br&gt;dept1, zss&lt;br&gt;dept, zss&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="760" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-64" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Use Case 3: Get Department with employees with Highest salary&lt;br&gt;Eg: DepartmentName, Employee, Salary&lt;br&gt;That is we have 1 employee per department&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="900" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-65" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Use Case 4: Get Nth Highest Salary in a department&lt;br&gt;Eg: Department name, salary&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1040" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-66" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Use Case 5: Get the department with highest budget&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1180" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-67" value="&lt;div&gt;select D.deptName, E.name, E.Salary from&amp;nbsp;&lt;/div&gt;&lt;div&gt;Employee E INNER JOIN DEPT D&lt;/div&gt;&lt;div&gt;on E.deptId = D.deptId&lt;/div&gt;&lt;div&gt;Order by&amp;nbsp; D.deptName, E.name, E.SALARY DESC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="860" y="600" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-68" value="&lt;div&gt;select D.deptName, MAX(E.Salary) from&amp;nbsp;&lt;/div&gt;&lt;div&gt;Employee E INNER JOIN dept D&lt;/div&gt;&lt;div&gt;on E.deptId = D.deptId&lt;/div&gt;&lt;div&gt;Group by D.deptName&lt;/div&gt;&lt;div&gt;Order by 2 DESC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="860" y="735" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-69" value="&lt;div&gt;select D.deptname, E.name, E.Salary from&amp;nbsp;&lt;/div&gt;&lt;div&gt;Employee E INNER JOIN dept D&lt;/div&gt;&lt;div&gt;on E.deptId = D.deptId&lt;/div&gt;&lt;div&gt;where (E.deptId, E.Salary) IN&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;(Select deptId, max(salary) from Employee group by deptId)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="860" y="875" width="540" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-70" value="select deptId, sum(salary) from employee&lt;br&gt;group by deptId order by sum(salary) desc limit 1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1172.5" width="460" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-71" value="select distinct(salary), deptid from employee e where deptid = 3&amp;nbsp; order by salary desc limit 2, 1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1010" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-72" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b style=&quot;font-weight: normal&quot; id=&quot;docs-internal-guid-f6e78962-7fff-7e21-0e6b-eff3f2c56322&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;create table &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 170); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;EMPLOYEE&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;(empId &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(252, 194, 140); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;deptId &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(252, 194, 140); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;name varchar(&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(211, 99, 99); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;200&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;),&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;salary &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(252, 194, 140); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;);&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;create table &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 170); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;DEPT&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;deptId &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(252, 194, 140); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;deptName varchar(&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(211, 99, 99); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;200&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: consolas, sans-serif; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;);&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="210" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PhxU9cAhpDBWABS3kmyr-73" value="insert into employee (empId, deptId, name, salary) values( 1, 1, &quot;ganesh&quot;, 100)" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="850" y="300" width="550" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
